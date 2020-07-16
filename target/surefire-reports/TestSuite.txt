@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 13.288 sec <<< FAILURE!
+homePageSetUp(com.qa.hubspot.tests.HomePageTest)  Time elapsed: 12.108 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.hubspot.tests.HomePageTest.homePageSetUp(HomePageTest.java:16)
+
