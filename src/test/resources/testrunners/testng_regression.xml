@@ -5,9 +5,9 @@
 
 	<listeners>
 
-		<listener class-name="com.qa.hubspot.testlisteners.TestAllureListener.java"/>
+	<!--	<listener class-name="com.qa.hubspot.testlisteners.TestAllureListener"/>
 		
-		<listener class-name="com.qa.hubspot.testlisteners.ExtentReportListener"/>
+		<listener class-name="com.qa.hubspot.testlisteners.ExtentReportListener"/> -->
 		
 	</listeners>
 

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jul 13 20:19:32 CDT 2020</td>
+<td>Started on:</td><td>Thu Jul 23 14:06:46 CDT 2020</td>
 </tr>
-<tr><td>Total time:</td><td>34 seconds (34712 ms)</td>
+<tr><td>Total time:</td><td>29 seconds (29737 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,105 +75,20 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.qa.hubspot.tests.ContactsPageTest.verifyGetContactsPageHeaderTest()'><b>verifyGetContactsPageHeaderTest</b><br>Test class: com.qa.hubspot.tests.ContactsPageTest</td>
-<td></td>
-<td>1</td>
-<td>com.qa.hubspot.tests.ContactsPageTest@d4342c2</td></tr>
-<tr>
-<td title='com.qa.hubspot.tests.ContactsPageTest.verifyGetContactsPageTitleTest()'><b>verifyGetContactsPageTitleTest</b><br>Test class: com.qa.hubspot.tests.ContactsPageTest</td>
+<td title='com.qa.hubspot.tests.LoginPageTest.verifyLoginPageTitleTest()'><b>verifyLoginPageTitleTest</b><br>Test class: com.qa.hubspot.tests.LoginPageTest</td>
 <td></td>
 <td>0</td>
-<td>com.qa.hubspot.tests.ContactsPageTest@d4342c2</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
+<td>com.qa.hubspot.tests.LoginPageTest@3b8ee898</td></tr>
 <tr>
-<td title='com.qa.hubspot.tests.ContactsPageTest.verifyCreateContact()'><b>verifyCreateContact</b><br>Test class: com.qa.hubspot.tests.ContactsPageTest</td>
-<td><div><pre>java.lang.RuntimeException: java.lang.NullPointerException
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:51)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:147)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:801)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:744)
-	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
-	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:783)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-	at org.testng.TestNG.runSuites(TestNG.java:1039)
-	at org.testng.TestNG.run(TestNG.java:1007)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.NullPointerException
-	at com.qa.hubspot.util.ExcelUtil.getTestData(ExcelUtil.java:30)
-	at com.qa.hubspot.tests.ContactsPageTest.getContactsTestData(ContactsPageTest.java:42)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:78)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:47)
-	... 25 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace62156248", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace62156248'><pre>java.lang.RuntimeException: java.lang.NullPointerException
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:51)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:147)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:801)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:744)
-	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
-	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:783)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-	at org.testng.TestNG.runSuites(TestNG.java:1039)
-	at org.testng.TestNG.run(TestNG.java:1007)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.NullPointerException
-	at com.qa.hubspot.util.ExcelUtil.getTestData(ExcelUtil.java:30)
-	at com.qa.hubspot.tests.ContactsPageTest.getContactsTestData(ContactsPageTest.java:42)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:78)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:47)
-	... 25 more
-</pre></div></td>
-<td>0</td>
-<td>com.qa.hubspot.tests.ContactsPageTest@d4342c2</td></tr>
+<td title='com.qa.hubspot.tests.LoginPageTest.verifyLoginTest()'><b>verifyLoginTest</b><br>Test class: com.qa.hubspot.tests.LoginPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.qa.hubspot.tests.LoginPageTest@3b8ee898</td></tr>
+<tr>
+<td title='com.qa.hubspot.tests.LoginPageTest.verifySignUpLinkTest()'><b>verifySignUpLinkTest</b><br>Test class: com.qa.hubspot.tests.LoginPageTest</td>
+<td></td>
+<td>4</td>
+<td>com.qa.hubspot.tests.LoginPageTest@3b8ee898</td></tr>
 </table><p>
 </body>
 </html>

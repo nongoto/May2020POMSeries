@@ -57,7 +57,7 @@ public class TestAllureListener extends BasePage implements ITestListener {
 	@Override
 	public void onTestFailure(ITestResult iTestResult) {
 		System.out.println("I am in onTestFailure method " + getTestMethodName(iTestResult) + " failed");
-		Object testClass = iTestResult.getInstance();
+		//Object testClass = iTestResult.getInstance();
 		//WebDriver driver = BasePage.getDriver();
 		// Allure ScreenShotRobot and SaveTestLog
 		if (getDriver() instanceof WebDriver) {

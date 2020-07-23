@@ -1,5 +1,6 @@
 package com.qa.hubspot.tests;
 
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
@@ -30,7 +31,7 @@ public class ContactsPageTest extends BaseTest{
 		Assert.assertEquals(title, Constants.CONTACTS_PAGE_TITLE);
 	}
 	
-	@Test(priority = 2)
+	@Test(priority = 2, enabled = true)
 	public void verifyGetContactsPageHeaderTest() {
 		String header = contactsPage.getContactsPageHeader();
 		System.out.println("Contacts page header is: " + header);
@@ -39,11 +40,16 @@ public class ContactsPageTest extends BaseTest{
 	
 	@DataProvider
 	public Object[][] getContactsTestData() {
-		Object data[][] = ExcelUtil.getTestData(Constants.CONTACTS_SHEET_NAME);
+		Object data[][] = null;
+		try {
+			data = ExcelUtil.getTestData(Constants.CONTACTS_SHEET_NAME);
+		} catch (InvalidFormatException e) {
+			e.printStackTrace();
+		}
 		return data;
 	}
 	
-	@Test(priority = 3, dataProvider = "getContactsTestData")
+	@Test(priority = 3, dataProvider = "getContactsTestData", enabled = true)
 	public void verifyCreateContact(String emailId, String firstName, String lastName, String jobTitle, String phoneNumber) {
 		contactsPage.createContact(emailId, firstName, lastName, jobTitle, phoneNumber);				
 	}

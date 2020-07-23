@@ -36,7 +36,8 @@ public class LoginPage extends BasePage {
 		//return driver.findElement(signuplink).isDisplayed();
 		return elementUtil.doIsDisplayed(signuplink);
 	}
-
+	
+//Login with a correct username and password
 	public HomePage doLogin(String username, String pwd) {
 		elementUtil.doWaitForElementPresent(email, 10);
 		elementUtil.doSendKeys(email, username);

@@ -2,9 +2,12 @@ com\qa\hubspot\util\ExcelUtil.class
 com\qa\hubspot\pages\LoginPage.class
 com\qa\hubspot\base\BaseTest.class
 com\qa\hubspot\pages\HomePage.class
+com\qa\hubspot\pages\HomePageTest.class
 com\qa\hubspot\util\JavaSriptUtil.class
+com\qa\hubspot\testlisteners\ExtentReportListener.class
 com\qa\hubspot\pages\ContactsPage.class
 com\qa\hubspot\util\ElementUtil.class
+com\qa\hubspot\testlisteners\TestAllureListener.class
 com\qa\hubspot\util\Constants.class
 com\qa\hubspot\base\BasePage.class
 com\qa\hubspot\util\OptionsManager.class
