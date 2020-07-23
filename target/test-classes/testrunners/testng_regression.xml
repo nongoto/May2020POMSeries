@@ -19,13 +19,13 @@
 		</classes>
 	</test> <!-- Test -->
 
-	<test thread-count="5" name="HubSpot Feature Testing - Home Page">
+	<!-- <test thread-count="5" name="HubSpot Feature Testing - Home Page">
 		<classes>
 
 			<class name="com.qa.hubspot.tests.HomePageTest" />
 
 		</classes>
-	</test> <!-- Test -->
+	</test> Test
 
 	<test thread-count="5"
 		name="HubSpot Feature Testing - Contacts Page">
@@ -34,5 +34,5 @@
 			<class name="com.qa.hubspot.tests.ContactsPageTest" />
 
 		</classes>
-	</test> <!-- Test -->
+	</test>  -->
 </suite> <!-- Suite -->
