@@ -5,10 +5,12 @@
 
 	<listeners>
 
-	<!-- 	<listener class-name="com.qa.hubspot.testlisteners.TestAllureListener"/>
-		
-		<listener class-name="com.qa.hubspot.testlisteners.ExtentReportListener"/> -->
-		
+		<!-- <listener
+			class-name="com.qa.hubspot.testlisteners.TestAllureListener" /> -->
+
+		<listener
+			class-name="com.qa.hubspot.testlisteners.ExtentReportListener" />
+
 	</listeners>
 
 	<test thread-count="5" name="HubSpot Feature Testing - login">
@@ -19,20 +21,9 @@
 		</classes>
 	</test> <!-- Test -->
 
-	<!-- <test thread-count="5" name="HubSpot Feature Testing - Home Page">
-		<classes>
-
-			<class name="com.qa.hubspot.tests.HomePageTest" />
-
-		</classes>
-	</test> Test
-
-	<test thread-count="5"
-		name="HubSpot Feature Testing - Contacts Page">
-		<classes>
-
-			<class name="com.qa.hubspot.tests.ContactsPageTest" />
-
-		</classes>
-	</test>  -->
+	<!-- <test thread-count="5" name="HubSpot Feature Testing - Home Page"> 
+		<classes> <class name="com.qa.hubspot.tests.HomePageTest" /> </classes> </test> 
+		Test <test thread-count="5" name="HubSpot Feature Testing - Contacts Page"> 
+		<classes> <class name="com.qa.hubspot.tests.ContactsPageTest" /> </classes> 
+		</test> -->
 </suite> <!-- Suite -->
